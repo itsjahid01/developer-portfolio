@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: right bottom, left bottom;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 200px;  
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.colorfont{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    
+}
+nav li{ 
+    list-style: none;
+    font-weight: 400;
+    margin-left: 50px;
+}
+.primary-btn{
+    border: none;
+    padding: 15px 35px;
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.banner{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 100px;
+}
+.banner-head{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner-discription{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.contactbtn{
+    border: 1px solid #FD6E0A;
+    padding: 15px 35px;
+    color:#FD6E0A;
+    background:  #FFFFFF;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    text-align: center;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 130px;
+}
+.about-section{
+    padding: 130px 150px;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818; 
+    margin-bottom: 30px;
+    
+}
+.about-discription{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-title{
+    color: #757575;
+    font-weight: 400;
+font-size: 20px;
+}
+.about-info-discription{
+    font-weight: 700;
+font-size: 20px;
+color: #474747;
+}
